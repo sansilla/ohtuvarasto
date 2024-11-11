@@ -32,6 +32,7 @@ def main():
     saatiin = mehua.ota_varastosta(-32.9)
     print(f"saatiin {saatiin}\nMehuvarasto: {mehua}")
 
+    print("rikotaan pylint sääntö")
 
 if __name__ == "__main__":
     main()
